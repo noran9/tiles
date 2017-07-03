@@ -1,0 +1,46 @@
+.tile{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: none;
+    margin: none;
+    display: inline-block;
+    float:left;
+}
+.container{
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+}
+.active {
+    background-color: darkolivegreen;
+}
+#nav{
+    display:inline-block;
+    width: 150px;
+    height: 1000px;
+    margin: 0 auto;
+    float: left;
+}
+.button{
+    display: block;
+    margin:10px;
+    float: left;
+    width: 140px;
+    height: 70px;
+    padding: 10px;
+    background-color: olive;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none;
+    }
+.button:hover{
+    background-color: lightgoldenrodyellow;}
+
+.button:focus{
+    background-color: goldenrod;
+}
+
