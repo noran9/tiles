@@ -49,21 +49,18 @@ $(document).ready(function create(){
 
     $("#dark").click(function colors(){
         $(".tile").hover(function(){
-            var red = (Math.floor(Math.random() * 256));
-            var green= (Math.floor(Math.random() * 256));
-            var blue = (Math.floor(Math.random() * 256));
+            var red = (Math.floor(Math.random() * 100));
+            var green= (Math.floor(Math.random() * 100));
+            var blue = (Math.floor(Math.random() * 100));
+
             var color = 'rgb('
             + red + ','
             + green + ','
             + blue + ')';
-            $(this).css("background-color" ,color);
-            for (var c=0; c<=10; c++){
-                red += 25.6;
-                green += 25.6;
-                blue += 25.6;
-                delay (2000);
+            
+                                
                 $(this).css("background-color" ,color);
-            }
+            
 
         })
     });

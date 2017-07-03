@@ -22,6 +22,9 @@
     margin: 0 auto;
     float: left;
 }
+body{
+    background-color: beige;
+}
 .button{
     display: block;
     margin:10px;
@@ -42,5 +45,6 @@
 
 .button:focus{
     background-color: goldenrod;
+    border:none;
+    outline: none;
 }
-
